@@ -17,3 +17,10 @@ function checkCountValue(){
         alert("Your instagram account got 20 followers! Congratulations!!");
     }
 }
+function resetCount(){
+    count=0;
+    reset();
+}
+function reset(){
+    document.getElementById('countDisplay').innerHTML=count;
+}
