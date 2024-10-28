@@ -1,0 +1,38 @@
+h1{
+    text-align:center;
+    color:red;
+    padding:70px;
+}
+.seatBooking{
+    display:grid;
+    grid-template-columns: repeat(3,70px);
+    gap:30px;
+    justify-content: center;
+}
+#seat{
+    background-color: rgb(9, 173, 9);
+    color:white;
+    text-align:center;
+    border:2px solid green;
+    width:80px;
+    height:40px;
+    line-height:40px;
+    cursor:pointer;
+}
+.available{
+    background-color: green;
+}
+.booked{
+    background-color: red;
+    cursor:not-allowed;
+    color:white;
+}
+.select-button{
+    width:100%;
+    padding:10px;
+    margin:10px;
+    background-color:blue;
+    color:white;
+    border:none;
+    cursor:pointer;
+}
