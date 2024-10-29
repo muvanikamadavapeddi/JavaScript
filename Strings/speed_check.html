@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Speed Test Analysis</title>
+</head>
+<body>
+    <h1>Speed Test Analysis</h1>
+    <label for="inputText">Type the following text:</label><br>
+    <textarea id="inputText" col="70" row='10' readOnly placeholder="Get ready to type...."></textarea>
+    <br>
+    <label for="userInput">Your Typing</label><br>
+    <textarea id="userInput" col="70" row="10" placeholder="Start Typing When Ready"></textarea>
+    <br>
+    <button onclick="startTest()">Start Test</button>
+    <button onclick="endTest()" id="btn">End Test</button>
+    <div id="output"></div>
+    <script src="./speed_check.js"></script>
+</body>
+</html>
